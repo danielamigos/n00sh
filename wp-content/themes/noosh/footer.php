@@ -1,17 +1,5 @@
-			<!-- footer -->
-			<footer class="footer" role="contentinfo">
-
-				<!-- copyright -->
-				<p class="copyright">
-					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'noosh'); ?>
-					<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//noosh.com" title="Noosh">Noosh</a>.
-				</p>
-				<!-- /copyright -->
-
-			</footer>
-			<!-- /footer -->
-
-		</div>
+			
+        </div><!-- /.container -->
 		<!-- /wrapper -->
 
 		<?php wp_footer(); ?>

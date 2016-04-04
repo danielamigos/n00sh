@@ -43,27 +43,79 @@
 
 	</head>
 	<body <?php body_class(); ?>>
-
-		<!-- wrapper -->
-		<div class="wrapper">
-
-			<!-- header -->
-			<header class="header clear" role="banner">
-
-					<!-- logo -->
-					<div class="logo">
-						<a href="<?php echo home_url(); ?>">
-							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-							<img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
-						</a>
-					</div>
-					<!-- /logo -->
-
-					<!-- nav -->
-					<nav class="nav" role="navigation">
-						<?php noosh_nav(); ?>
-					</nav>
-					<!-- /nav -->
-
-			</header>
-			<!-- /header -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img alt="Brand" src="<?php echo get_template_directory_uri(); ?>/img/noosh-nav-logo.png" />
+                    </a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active">
+                            <a href="#">
+                                <div style="position:relative;width:50px;height:50px;">
+                                    <img alt="Product" src="<?php echo get_template_directory_uri(); ?>/img/noosh-nav-product-red-icon.png" />
+                                    <img alt="Product" src="<?php echo get_template_directory_uri(); ?>/img/noosh-nav-product-brown-icon.png"  class="top"/>
+                                </div>
+                                <span style="display:block;">Product</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div style="position:relative;width:50px;height:50px;">
+                                    <img alt="Uses" src="<?php echo get_template_directory_uri(); ?>/img/noosh-nav-uses-red-icon.png" />
+                                    <img alt="Uses" src="<?php echo get_template_directory_uri(); ?>/img/noosh-nav-uses-brown-icon.png"  class="top"/>
+                                </div>
+                                <span style="display:block;">Uses</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div style="position:relative;width:50px;height:50px;">
+                                    <img alt="Brand" src="<?php echo get_template_directory_uri(); ?>/img/noosh-nav-brand-red-icon.png" />
+                                    <img alt="Brand" src="<?php echo get_template_directory_uri(); ?>/img/noosh-nav-brand-brown-icon.png"  class="top"/>
+                                </div>
+                                <span style="display:block;">Brand</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div style="position:relative;width:50px;height:50px;">
+                                    <img alt="Find" src="<?php echo get_template_directory_uri(); ?>/img/noosh-nav-find-red-icon.png" />
+                                    <img alt="Find" src="<?php echo get_template_directory_uri(); ?>/img/noosh-nav-find-brown-icon.png"  class="top"/>
+                                </div>
+                                <span style="display:block;">Find</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div style="position:relative;width:50px;height:50px;">
+                                    <img alt="Shop" src="<?php echo get_template_directory_uri(); ?>/img/noosh-nav-shop-red-icon.png" />
+                                    <img alt="Shop" src="<?php echo get_template_directory_uri(); ?>/img/noosh-nav-shop-brown-icon.png"  class="top"/>
+                                </div>
+                                <span style="display:block;">Shop</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div style="position:relative;width:50px;height:50px;">
+                                    <img alt="Contact" src="<?php echo get_template_directory_uri(); ?>/img/noosh-nav-contact-red-icon.png" />
+                                    <img alt="Contact" src="<?php echo get_template_directory_uri(); ?>/img/noosh-nav-contact-brown-icon.png"  class="top"/>
+                                </div>
+                                <span style="display:block;">Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </nav>
+        
+        <div class="container wrapper">
+            

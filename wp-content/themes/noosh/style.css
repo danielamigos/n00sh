@@ -69,16 +69,66 @@ input:focus {
 	border:1px solid #04A4CC;
 }
 
+.navbar-default {
+    box-shadow: 0 0 8px 6px rgba(0, 0, 0, 0.5);
+    background-color: transparent;
+    background-image: url('img/navbar-background.png');
+}
+
+.navbar-brand
+{
+    padding: 15px 40px;
+}
+
+.navbar-nav>li>a
+{
+    text-align: center;    
+    padding-top: 23px;
+    padding-bottom: 22px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width:140px;
+}
+.navbar-nav>li>a img
+{
+    position:absolute;
+    left:15px;
+    -webkit-transition: opacity .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out;
+    -o-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out;
+}
+.navbar-nav>li>a img.top:hover
+{
+    opacity: 0;
+}
+.navbar-nav>li>a>span
+{
+    font-family: 'AvantGardeBold-Regular';    
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #68411c;
+    margin-top:5px;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #68411c;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #68411c;
+    background-color: transparent;
+}
+
 /*------------------------------------*\
     STRUCTURE
 \*------------------------------------*/
 
 /* wrapper */
 .wrapper {
-	max-width:1280px;
-	width:95%;
-	margin:0 auto;
-	position:relative;
+    margin-top:120px;
 }
 /* header */
 .header {
@@ -183,6 +233,21 @@ input:focus {
         url('fonts/3095E9_0_0.woff2') format('woff2'),
         url('fonts/3095E9_0_0.woff') format('woff'),
         url('fonts/3095E9_0_0.ttf') format('truetype');
+}
+
+
+@font-face {
+	font-family:'AvantGardeBold-Regular';
+	src: url('fonts/AvantGardeBold_gdi.eot');
+	src: url('fonts/AvantGardeBold_gdi.eot?#iefix') format('embedded-opentype'),
+		url('fonts/AvantGardeBold_gdi.woff') format('woff'),
+		url('fonts/AvantGardeBold_gdi.ttf') format('truetype'),
+		url('fonts/AvantGardeBold_gdi.otf') format('opentype'),
+		url('fonts/AvantGardeBold_gdi.svg#AvantGardeBold-Regular') format('svg');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2122;
 }
  
 

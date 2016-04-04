@@ -121,7 +121,7 @@ function noosh_styles()
     //wp_register_style('normalize', get_template_directory_uri() . '/normalize.css', array(), '1.0', 'all');
     //wp_enqueue_style('normalize'); // Enqueue it!
     
-    wp_register_style('bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css', array(), '3.3.6', 'all');
+    wp_register_style('bootstrap', get_template_directory_uri() . '/css/bootstrap.css', array(), '3.3.6', 'all');
     wp_enqueue_style('bootstrap'); // Enqueue it!
 
     wp_register_style('noosh', get_template_directory_uri() . '/style.css', array(), '1.0', 'all');
