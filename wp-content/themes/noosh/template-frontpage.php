@@ -5,9 +5,11 @@
             <img alt="image1" src="<?php echo get_template_directory_uri(); ?>/img/noosh-landing-img-2.jpg" />
         </div>
         <div class="col-md-6" style="padding-left:12px;">
-            <div class="row" style="padding-bottom:12px;"> 
-                <div class="col-md-6" style="padding-right:12px;">
-                    <img alt="image2" src="<?php echo get_template_directory_uri(); ?>/img/brown-box.png" />
+            <div class="row"> 
+                <div class="col-md-6 h-md-6 h-xs-12" >
+                    <div  style="padding-right:12px; padding-bottom:12px;">
+                        <div style="background-color:brown; height:100%;"></div>
+                    </div>
                 </div>
                 <div class="col-md-6" style="padding-left:12px;">
                     <img alt="image3" src="<?php echo get_template_directory_uri(); ?>/img/noosh-landing-img-1.jpg" />

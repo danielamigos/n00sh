@@ -43,8 +43,8 @@
 
 	</head>
 	<body <?php body_class(); ?>>
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
+        <nav class="navbar navbar-default navbar-fixed-top" <?PHP if(remove_admin_bar()) echo 'style="margin-top:32px;"'; ?>>
+            <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                         <span class="sr-only">Toggle navigation</span>
@@ -60,55 +60,37 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li class="active">
                             <a href="#">
-                                <div style="position:relative;width:50px;height:50px;">
-                                    <img alt="Product" src="<?php echo get_template_directory_uri(); ?>/img/noosh-nav-product-red-icon.png" />
-                                    <img alt="Product" src="<?php echo get_template_directory_uri(); ?>/img/noosh-nav-product-brown-icon.png"  class="top"/>
-                                </div>
+                                <span style="display:block;" class="icon icon-noosh-nav-product menu-noosh-icon"></span>
                                 <span style="display:block;">Product</span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <div style="position:relative;width:50px;height:50px;">
-                                    <img alt="Uses" src="<?php echo get_template_directory_uri(); ?>/img/noosh-nav-uses-red-icon.png" />
-                                    <img alt="Uses" src="<?php echo get_template_directory_uri(); ?>/img/noosh-nav-uses-brown-icon.png"  class="top"/>
-                                </div>
+                                <span style="display:block;" class="icon icon-noosh-nav-uses menu-noosh-icon"></span>
                                 <span style="display:block;">Uses</span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <div style="position:relative;width:50px;height:50px;">
-                                    <img alt="Brand" src="<?php echo get_template_directory_uri(); ?>/img/noosh-nav-brand-red-icon.png" />
-                                    <img alt="Brand" src="<?php echo get_template_directory_uri(); ?>/img/noosh-nav-brand-brown-icon.png"  class="top"/>
-                                </div>
+                                <span style="display:block;" class="icon icon-noosh-nav-brand menu-noosh-icon"></span>
                                 <span style="display:block;">Brand</span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <div style="position:relative;width:50px;height:50px;">
-                                    <img alt="Find" src="<?php echo get_template_directory_uri(); ?>/img/noosh-nav-find-red-icon.png" />
-                                    <img alt="Find" src="<?php echo get_template_directory_uri(); ?>/img/noosh-nav-find-brown-icon.png"  class="top"/>
-                                </div>
+                                <span style="display:block;" class="icon icon-noosh-nav-find menu-noosh-icon"></span>
                                 <span style="display:block;">Find</span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <div style="position:relative;width:50px;height:50px;">
-                                    <img alt="Shop" src="<?php echo get_template_directory_uri(); ?>/img/noosh-nav-shop-red-icon.png" />
-                                    <img alt="Shop" src="<?php echo get_template_directory_uri(); ?>/img/noosh-nav-shop-brown-icon.png"  class="top"/>
-                                </div>
+                                <span style="display:block;" class="icon icon-noosh-nav-shop menu-noosh-icon"></span>
                                 <span style="display:block;">Shop</span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <div style="position:relative;width:50px;height:50px;">
-                                    <img alt="Contact" src="<?php echo get_template_directory_uri(); ?>/img/noosh-nav-contact-red-icon.png" />
-                                    <img alt="Contact" src="<?php echo get_template_directory_uri(); ?>/img/noosh-nav-contact-brown-icon.png"  class="top"/>
-                                </div>
+                                <span style="display:block;" class="icon icon-noosh-nav-contact menu-noosh-icon"></span>
                                 <span style="display:block;">Contact</span>
                             </a>
                         </li>
@@ -117,5 +99,5 @@
             </div>
         </nav>
         
-        <div class="container wrapper">
+        <div class="container-fluid wrapper">
             

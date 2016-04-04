@@ -87,20 +87,6 @@ input:focus {
     padding-bottom: 22px;
     padding-left: 30px;
     padding-right: 30px;
-    width:140px;
-}
-.navbar-nav>li>a img
-{
-    position:absolute;
-    left:15px;
-    -webkit-transition: opacity .3s ease-in-out;
-    -moz-transition: opacity .3s ease-in-out;
-    -o-transition: opacity .3s ease-in-out;
-    transition: opacity .3s ease-in-out;
-}
-.navbar-nav>li>a img.top:hover
-{
-    opacity: 0;
 }
 .navbar-nav>li>a>span
 {
@@ -120,6 +106,20 @@ input:focus {
 .navbar-default .navbar-nav > .active > a:focus {
     color: #68411c;
     background-color: transparent;
+}
+.navbar-nav>li>a>span.menu-noosh-icon
+{
+    font-size: 45px;   
+    color: #68411c;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.navbar-default .navbar-nav > li > a:hover .menu-noosh-icon,
+.navbar-default .navbar-nav > li > a:focus .menu-noosh-icon {
+    color: #ed3124;
 }
 
 /*------------------------------------*\
@@ -249,7 +249,75 @@ input:focus {
 	font-stretch: normal;
 	unicode-range: U+0020-2122;
 }
- 
+
+
+@font-face {
+    font-family: "noosh-icons";
+    src: url("fonts/noosh-icons.eot");
+    src: url("fonts/noosh-icons.eot?#iefix") format("embedded-opentype"),
+        url("fonts/noosh-icons.woff") format("woff"),
+        url("fonts/noosh-icons.ttf") format("truetype"),
+        url("fonts/noosh-icons.svg#noosh-icons") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+  
+[data-icon]:before {
+  font-family: "noosh-icons" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "noosh-icons" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-noosh-nav-account:before {
+  content: "\61";
+}
+.icon-noosh-nav-brand:before {
+  content: "\62";
+}
+.icon-noosh-nav-cart:before {
+  content: "\63";
+}
+.icon-noosh-nav-contact:before {
+  content: "\64";
+}
+.icon-noosh-nav-find:before {
+  content: "\65";
+}
+.icon-noosh-nav-left-arrow:before {
+  content: "\66";
+}
+.icon-noosh-nav-product:before {
+  content: "\67";
+}
+.icon-noosh-nav-right-arrow:before {
+  content: "\68";
+}
+.icon-noosh-nav-shop:before {
+  content: "\69";
+}
+.icon-noosh-nav-uses:before {
+  content: "\6a";
+}
 
 /*------------------------------------*\
     RESPONSIVE
