@@ -483,4 +483,27 @@ function noosh_theme_customizer( $wp_customize ) {
 }
 add_action('customize_register', 'noosh_theme_customizer');
 
+
+// Register Custom Navigation Walker
+require_once('wp_bootstrap_navwalker.php');
+
+
+function bootstrap_nav()
+{
+    wp_nav_menu( 
+    array(
+        'menu'              => 'header-menu',
+        'theme_location'    => 'header-menu',
+        'depth'             => 2,
+        'container'         => 'div',
+        'container_class'   => '',//collapse navbar-collapse
+        'container_id'      => 'bs-example-navbar-collapse-1',
+        'menu_class'        => 'nav navbar-nav navbar-right',
+        'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+        'walker'            => new wp_bootstrap_navwalker()
+        )
+    );
+}
+
+
 ?>
