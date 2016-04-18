@@ -403,6 +403,15 @@ div > div.second-level-column-solo{
     PAGES
 \*------------------------------------*/
 
+p.white-text
+{
+    text-align:center; 
+    color: #ffffff; 
+    font-family: 'TeXGyreAdventor-Italic'; 
+    font-size: 10px;
+    padding-left:30px;
+    padding-right:30px;
+}
 
 /*------------------------------------*\
     IMAGES
@@ -633,6 +642,11 @@ div > div.second-level-column-solo{
         height: 31px; 
     }
     
+    p.white-text
+    { 
+        font-size: 12px;
+    }
+    
     
 }
 
@@ -677,6 +691,10 @@ div > div.second-level-column-solo{
     .frontpage-link-box .link-box-red-text,
     .frontpage-link-box .link-box-white-text
     {
+        font-size: 14px;
+    }
+    p.white-text
+    { 
         font-size: 14px;
     }
 
@@ -896,6 +914,10 @@ div > div.second-level-column-solo{
     {
         font-size: 12px;
     }
+    p.white-text
+    { 
+        font-size: 12px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -1008,6 +1030,10 @@ div > div.second-level-column-solo{
     {
         font-size: 14px;
     }
+    p.white-text
+    { 
+        font-size: 14px;
+    }
 }
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1366px) {
@@ -1106,6 +1132,10 @@ div > div.second-level-column-solo{
     .frontpage-link-box .white-fancy-title
     {
         font-size:36px;   
+    }
+    p.white-text
+    { 
+        font-size: 16px;
     }
 }
 @media only screen and (-webkit-min-device-pixel-ratio:1.5),
