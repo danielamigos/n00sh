@@ -46,7 +46,7 @@
         <nav class="navbar navbar-default navbar-fixed-top" <?PHP if(remove_admin_bar()) echo 'style="margin-top:32px;"'; ?>>
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#">
+                    <a href='<?php echo esc_url( home_url( '/' ) ); ?>' class="navbar-brand" title='<?php echo esc_attr(get_bloginfo( 'name','display')); ?>' rel='home'>
                         <img alt="Brand" src="<?php echo get_template_directory_uri(); ?>/img/noosh-nav-logo.png" />
                     </a>
                 </div>
