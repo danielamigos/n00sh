@@ -76,19 +76,19 @@
         <div class="col-xs-12 col-sm-9 first-level-solid-column-left"  <?php //style="padding-right:12px;"?> >
             <img alt="image10" src="<?php echo get_template_directory_uri(); ?>/img/noosh-landing-img-6-2.jpg"  style="width:100%"/>
         </div>
-        <div class="col-xs-12 col-sm-3 first-level-hollow-column-right">
+        <div class="col-xs-12 col-sm-3 first-level-hollow-column-right-vertical-stack">
             <div class="row second-level-row">
                 <div class="col-xs-12 h-xs-6 col-sm-12 h-sm-12" >
-                    <div class="second-level-column-solo"  <?php //style="padding-left:12px; padding-bottom:12px;"?> >
+                    <div class="second-level-vertical-stack-right second-level-vertical-stack-top"  <?php //style="padding-left:12px; padding-bottom:12px;"?> >
                         <div style="background-color:#b1651d;" class="h-content v-wrap">                            
                             <p class="light-fancy-text-2 v-box" >Squeeze it.<br/>Eat it.<br/>Share it.</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row second-second-level-solo-row"  <?php //style="padding-top:12px;"?> >
+            <div class="row second-level-row"  <?php //style="padding-top:12px;"?> >
                 <div class="col-xs-12 h-xs-6 col-sm-12 h-sm-12" >
-                    <div class="second-level-column-solo"  <?php //style="padding-left:12px; padding-bottom:12px;"?> >
+                    <div class="second-level-vertical-stack-right"  <?php //style="padding-left:12px; padding-bottom:12px;"?> >
                         <div style="background-color:#ffd24f;" class="h-content v-wrap">                                
                             <p class="dark-fancy-text v-box" >Enjoy a better<br/>breakfast<br/>with Noosh.</p>
                         </div>

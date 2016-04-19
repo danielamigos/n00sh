@@ -223,6 +223,13 @@ div > div.first-level-hollow-column-right{
     padding-left:0px;
     padding-right:0px;          
 }
+div > div.first-level-hollow-column-left-vertical-stack,
+div > div.first-level-hollow-column-right-vertical-stack{
+    padding-top:0px;
+    padding-bottom:0px;  
+    padding-left:0px;
+    padding-right:0px;          
+}
 div > div.second-level-column-left{
     padding-top:0px;
     padding-bottom:6px;  
@@ -241,6 +248,24 @@ div > div.second-level-column-solo{
     padding-bottom:6px;  
     padding-left:0px;
     padding-right:0px;         
+}
+div > div.second-level-vertical-stack-left
+{
+    padding-top:0px;
+    padding-bottom:0px;  
+    padding-left:0px;
+    padding-right:0px;                
+}
+div > div.second-level-vertical-stack-right
+{
+    padding-top:0px;
+    padding-bottom:0px;  
+    padding-left:0px;
+    padding-right:0px;                
+}
+div > div.second-level-vertical-stack-top
+{
+    padding-bottom:6px;              
 }
 
 
@@ -329,6 +354,9 @@ div > div.second-level-column-solo{
     white-space: normal;
 }
 
+.v-wrap-left{
+    text-align: left;
+}
 /*------------------------------------*\
     FRONTPAGE
 \*------------------------------------*/
@@ -403,7 +431,7 @@ div > div.second-level-column-solo{
     PAGES
 \*------------------------------------*/
 
-p.white-text
+p.noosh-white-text
 {
     text-align:center; 
     color: #ffffff; 
@@ -411,6 +439,25 @@ p.white-text
     font-size: 10px;
     padding-left:30px;
     padding-right:30px;
+}
+
+p.noosh-red-text
+{
+    text-align:left; 
+    color: #ed3124; 
+    font-family: 'TeXGyreAdventor-Italic'; 
+    font-size: 10px;
+    padding-left:30px;
+    padding-right:30px;
+}
+hr.product-page-divider
+{
+    margin-top:0;   
+    border-width:2px; 
+    margin-left:30px;
+    margin-right:30px;
+    margin-bottom:0px;   
+    border-color: #68411c; 
 }
 
 /*------------------------------------*\
@@ -603,6 +650,13 @@ p.white-text
         padding-left:0px;
         padding-right:0px;          
     }
+    div > div.first-level-hollow-column-left-vertical-stack,
+    div > div.first-level-hollow-column-right-vertical-stack{
+        padding-top:0px;
+        padding-bottom:0px;  
+        padding-left:0px;
+        padding-right:0px;          
+    }
     div > div.second-level-column-left{
         padding-top:0px;
         padding-bottom:6px;  
@@ -622,6 +676,24 @@ p.white-text
         padding-left:0px;
         padding-right:0px;         
     }
+    div > div.second-level-vertical-stack-left
+    {
+        padding-top:0px;
+        padding-bottom:0px;  
+        padding-left:0px;
+        padding-right:0px;                
+    }
+    div > div.second-level-vertical-stack-right
+    {
+        padding-top:0px;
+        padding-bottom:0px;  
+        padding-left:0px;
+        padding-right:0px;                
+    }
+    div > div.second-level-vertical-stack-top
+    {
+        padding-bottom:6px;              
+    }
     
     .frontpage-link-box .dark-fancy-title,
     .frontpage-link-box .white-fancy-title
@@ -630,7 +702,9 @@ p.white-text
     }
     
     .frontpage-link-box .link-box-red-text,
-    .frontpage-link-box .link-box-white-text
+    .frontpage-link-box .link-box-white-text,
+    p.noosh-white-text,
+    p.noosh-red-text
     { 
         font-size: 12px;
     }
@@ -689,7 +763,9 @@ p.white-text
         margin-bottom:20px;
     }
     .frontpage-link-box .link-box-red-text,
-    .frontpage-link-box .link-box-white-text
+    .frontpage-link-box .link-box-white-text,
+    p.noosh-white-text,
+    p.noosh-red-text
     {
         font-size: 14px;
     }
@@ -843,6 +919,13 @@ p.white-text
         padding-left:6px;
         padding-right:0px;          
     }
+    div > div.first-level-hollow-column-left-vertical-stack,
+    div > div.first-level-hollow-column-right-vertical-stack{
+        padding-top:0px;
+        padding-bottom:0px;  
+        padding-left:0px;
+        padding-right:0px;          
+    }
     div > div.second-level-column-left{
         padding-top:0px;
         padding-bottom:6px;  
@@ -862,6 +945,24 @@ p.white-text
         padding-left:0px;
         padding-right:0px;         
     } 
+    div > div.second-level-vertical-stack-left
+    {
+        padding-top:0px;
+        padding-bottom:6px;  
+        padding-left:0px;
+        padding-right:6px;                
+    }
+    div > div.second-level-vertical-stack-right
+    {
+        padding-top:0px;
+        padding-bottom:6px;  
+        padding-left:6px;
+        padding-right:0px;                
+    }
+    div > div.second-level-vertical-stack-top
+    {
+        padding-bottom:12px;              
+    }
     
     .dark-fancy-text
     {
@@ -910,7 +1011,9 @@ p.white-text
     }
 
     .frontpage-link-box .link-box-red-text,
-    .frontpage-link-box .link-box-white-text
+    .frontpage-link-box .link-box-white-text,
+    p.noosh-white-text,
+    p.noosh-red-text
     {
         font-size: 12px;
     }
@@ -991,6 +1094,13 @@ p.white-text
         padding-left:8px;
         padding-right:0px;          
     }
+    div > div.first-level-hollow-column-left-vertical-stack,
+    div > div.first-level-hollow-column-right-vertical-stack{
+        padding-top:0px;
+        padding-bottom:0px;  
+        padding-left:0px;
+        padding-right:0px;          
+    }
     div > div.second-level-column-left{
         padding-top:0px;
         padding-bottom:8px;  
@@ -1010,6 +1120,24 @@ p.white-text
         padding-left:0px;
         padding-right:0px;         
     }
+    div > div.second-level-vertical-stack-left
+    {
+        padding-top:0px;
+        padding-bottom:8px;  
+        padding-left:0px;
+        padding-right:8px;                
+    }
+    div > div.second-level-vertical-stack-right
+    {
+        padding-top:0px;
+        padding-bottom:8px;  
+        padding-left:8px;
+        padding-right:0px;                
+    }
+    div > div.second-level-vertical-stack-top
+    {
+        padding-bottom:16px;              
+    }
    
     .frontpage-link-box .dark-fancy-title,
     .frontpage-link-box .white-fancy-title
@@ -1026,7 +1154,9 @@ p.white-text
     }
 
     .frontpage-link-box .link-box-red-text,
-    .frontpage-link-box .link-box-white-text
+    .frontpage-link-box .link-box-white-text,
+    p.noosh-white-text,
+    p.noosh-red-text
     {
         font-size: 14px;
     }
@@ -1079,6 +1209,13 @@ p.white-text
         padding-left:12px;
         padding-right:0px;          
     }
+    div > div.first-level-hollow-column-left-vertical-stack,
+    div > div.first-level-hollow-column-right-vertical-stack{
+        padding-top:0px;
+        padding-bottom:0px;  
+        padding-left:0px;
+        padding-right:0px;          
+    }
     div > div.second-level-column-left{
         padding-top:0px;
         padding-bottom:12px;  
@@ -1097,6 +1234,24 @@ p.white-text
         padding-bottom:0px;  
         padding-left:0px;
         padding-right:0px;         
+    }
+    div > div.second-level-vertical-stack-left
+    {
+        padding-top:0px;
+        padding-bottom:12px;  
+        padding-left:0px;
+        padding-right:12px;                
+    }
+    div > div.second-level-vertical-stack-right
+    {
+        padding-top:0px;
+        padding-bottom:12px;  
+        padding-left:12px;
+        padding-right:0px;                
+    }
+    div > div.second-level-vertical-stack-top
+    {
+        padding-bottom:24px;              
     }
     .dark-fancy-text
     {
