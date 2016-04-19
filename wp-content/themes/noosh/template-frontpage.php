@@ -2,7 +2,7 @@
 
     <div class="row first-level-row" >
         <div class="col-xs-12 col-sm-6 first-level-solid-column-left" <?PHP //style="padding-right:12px; padding-bottom:12px;" ?> >
-            <img alt="image1" src="<?php echo get_template_directory_uri(); ?>/img/noosh-landing-img-2.jpg" style="width:100%"/>
+            <img alt="image1" src="<?php echo get_template_directory_uri(); ?>/img/noosh-landing-img-1a.jpg" style="width:100%"/>
         </div>
         <div class="col-xs-12 col-sm-6 first-level-hollow-column-right" <?PHP //style="padding-left:12px;"?> >
             <div class="row second-level-row"> 
