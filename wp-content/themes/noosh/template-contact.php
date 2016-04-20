@@ -88,8 +88,51 @@
             </div>
         </div>        
     </div>
-	
-    <?php the_content(); ?>
+    
+    <div class="row first-level-row"  <?php //style="padding-top:12px; "?> >
+        <div class="col-xs-12 h-xs-3" >
+            <div class="first-level-solid-column-solo"  <?php //style="padding-left:12px; padding-bottom:12px;"?> >
+                <div style="background-color:#f6eedc;" class="h-content v-wrap">
+                    <div class="v-box" style="width:100%; text-align:left;" >
+                       
+	<?php if (have_posts()): while (have_posts()) : the_post(); ?>
+        <?php the_content(); ?>
+    <?php endwhile; endif; ?>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row first-level-row"  <?php //style="padding-top:12px; "?> >
+        <div class="col-xs-12 h-xs-2" >
+            <div class="first-level-solid-column-solo"  <?php //style="padding-left:12px; padding-bottom:12px;"?> >
+                <div style="background-color:#b1651d;" class="h-content v-wrap">
+                    <div class="v-box" style="width:100%; text-align:left;" >
+                        <div class="row">
+                            <div class="col-sm-10 col-sm-offset-1"> 
+                                <p class="regular-white-text">Noosh<br/>
+                                Nut Butter Concepts, LLC<br/>
+                                4439 Ish Drive, Simi Valley, CA 93063<br/><br/>
+
+                                O. 000.000.0000<br/>
+                                F. 000.000.0000<br/>
+                                E. info@nooshnutbutters.com
+                                </p>
+                                
+                            </div>
+                        </div>
+                      
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
 <?php get_sidebar(); ?>
 
 <?php get_footer(); ?>
