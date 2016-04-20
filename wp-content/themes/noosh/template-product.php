@@ -7,7 +7,7 @@
             <div class="first-level-solid-column-left" <?PHP //style="padding-right:12px; padding-bottom:12px;" ?> >     
             <div style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/noosh-product-img-1.jpg);" class="h-content v-wrap">  
                     <div class="v-box">
-                        <p class="big-fancy-cream-text">The perfect<br/>complement to your</br>favorite foods.</p>
+                        <p class="fancy-font jumbo-fancy-size light-yellow-font-color">The perfect<br/>complement to your</br>favorite foods.</p>
                     </div>
                 </div>
             </div>
@@ -22,21 +22,21 @@
     <div class="row first-level-row"  <?php //style="padding-top:12px; "?> >
         <div class="col-xs-12 h-xs-12  col-sm-6 h-sm-6">
             <div class="first-level-solid-column-left" <?PHP //style="padding-right:12px; padding-bottom:12px;" ?> >           
-                <div style="background-color:#f6eedc;" class="h-content v-wrap v-wrap-left">
+                <div class="h-content v-wrap v-wrap-left cream-background-color">
                     <div class="v-box">
-                        <p class="big-italic-red-text" style="font-size:24px;">Noosh Squeezable Almond Butter is the perfect complement to your favorite foods. Great in hot cereal, protein shakes, as an ingredient, dessert topper, spread, or simply as a tasty treat on a spoon. Just Shake & Squeeze®.</p>
-                        <hr class="product-page-divider"/>
+                        <p class="large-regular-size normal-regular-font red-font-color normal-side-padding" >Noosh Squeezable Almond Butter is the perfect complement to your favorite foods. Great in hot cereal, protein shakes, as an ingredient, dessert topper, spread, or simply as a tasty treat on a spoon. Just Shake & Squeeze®.</p>
+                        <hr class="brown-hr-color normal-bottom-padding"/>
                         <div class="row">
                             <div class="col-sm-6">
-                                <p class="bold-red-text">Noosh<br/>Squeezable Almond Butter<br/>Original-18oz Bottle</p>
+                                <p class="normal-regular-size normal-bold-font red-font-color normal-side-padding">Noosh<br/>Squeezable Almond Butter<br/>Original-18oz Bottle</p>
                             </div>
                             <div class="col-sm-6">
-                                <p class="bold-brown-text">Benefits:</p>                                
-                                <p class="italic-light-bold-brown-text">•Non-GMO •Vegan •Kosher<br/>•Paleo Friendly •Gluten Free<br/>•No Preservatives</p>
+                                <p class="normal-regular-size normal-bold-font brown-font-color normal-side-padding">Benefits:</p>                                
+                                <p class="normal-regular-size normal-regular-font light-brown-font-color normal-side-padding">•Non-GMO •Vegan •Kosher<br/>•Paleo Friendly •Gluten Free<br/>•No Preservatives</p>
                             </div>
                         </div>
-                        <p class="bold-brown-text">Ingredients:</p>
-                        <p class="italic-light-bold-brown-text">Almonds</p>
+                        <p class="normal-regular-size normal-bold-font brown-font-color normal-side-padding">Ingredients:</p>
+                        <p class="normal-regular-size normal-regular-font light-brown-font-color normal-side-padding">Almonds</p>
                         <img alt="image1" src="<?php echo get_template_directory_uri(); ?>/img/nutritional.jpg" style="padding-left:30px;"/>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
                 <div class="col-xs-12 h-xs-6 " >
                     <div class="second-level-vertical-stack-right"  <?php //style="padding-left:12px; padding-bottom:12px;"?> >
                         <div style="background-color:#b1651d;" class="h-content v-wrap">                                
-                            <p class="fancy-cream-text v-box" >Over 400 almonds are carefully blended<br/>in each bottle of Noosh Squeezable<br/>Almond Butter for a silky smooth finish.</p>
+                            <p class="fancy-font light-yellow-font-color large-fancy-size v-box" >Over 400 almonds are carefully blended<br/>in each bottle of Noosh Squeezable<br/>Almond Butter for a silky smooth finish.</p>
                         </div>
                     </div>
                 </div>
@@ -67,10 +67,10 @@
         <div class="col-xs-12 h-xs-6 col-sm-3  h-sm-3 " >
             <div class="first-level-solid-column-left" <?php //style="padding-right:12px; padding-bottom:12px;"?> >
                 <div style="background-color:#e8d3a2;" class="h-content v-wrap">
-                    <div class="frontpage-link-box v-box">                     
-                        <p class="dark-fancy-title" >Fun Fact</p>
-                        <hr/>
-                        <p class="link-box-red-text">Almond nuts are rich sources of vitamins, and minerals; packed with numerous health promoting phyto-chemicals.</p>
+                    <div class="v-box">                     
+                        <p class="brown-font-color fancy-font large-fancy-size" >Fun Fact</p>
+                        <hr class="white-br-color normal-bottom-padding"/>
+                        <p class="normal-regular-size normal-regular-font red-font-color normal-side-padding">Almond nuts are rich sources of vitamins, and minerals; packed with numerous health promoting phyto-chemicals.</p>
                     </div>
                 </div>
             </div>
