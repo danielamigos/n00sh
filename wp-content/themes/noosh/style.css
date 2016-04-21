@@ -274,7 +274,13 @@ div > div.second-level-vertical-stack-top
     padding-bottom:6px;              
 }
 
-
+.top-centered-box-position
+{
+    position: absolute;
+    top: 15px;
+    text-align: center;
+    width: 100%;
+}
 
 /*------------------------------------*\
     FONT SIZES

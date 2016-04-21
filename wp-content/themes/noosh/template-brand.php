@@ -87,8 +87,7 @@
                     <img alt="image3" src="<?php echo get_template_directory_uri(); ?>/img/noosh-brand-img-3.jpg"  style="width:100%"/>
                 </div>
             </div>
-        </div>
-        
+        </div>        
     </div>
 	
 <?php get_sidebar(); ?>
