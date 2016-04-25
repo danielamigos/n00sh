@@ -152,7 +152,9 @@ input:focus {
 }
 
 .navbar-default .navbar-nav > li > a:hover .menu-noosh-icon,
-.navbar-default .navbar-nav > li > a:focus .menu-noosh-icon {
+.navbar-default .navbar-nav > li > a:focus .menu-noosh-icon,
+.navbar-default .navbar-nav > li.current_page_item > a .menu-noosh-icon,
+.navbar-default .navbar-nav > li.current-menu-parent > a .menu-noosh-icon  {
     color: #ed3124;
 }
 
@@ -358,6 +360,10 @@ div > div.second-level-vertical-stack-top
 {
     color: #f6eedc;
 }
+.black-font-color
+{
+    color: #000000;
+}
 
 /*------------------------------------*\
     BACKGROUND COLORS
@@ -386,6 +392,14 @@ div > div.second-level-vertical-stack-top
 .cream-background-color
 {
     background-color: #f6eedc;
+}
+.black-background-color
+{
+    background-color: #000000;
+}
+.white-background-color
+{
+    background-color: #ffffff;
 }
 
 /*------------------------------------*\
@@ -426,12 +440,13 @@ hr.yellow-hr-color
 
 .noosh-button
 {
-    width: 109px; 
     height: 20px; 
     border-radius: 8px; 
     border-style: hidden; 
     font-size: 12px; 
     text-transform: uppercase;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 /*------------------------------------*\
@@ -517,8 +532,8 @@ hr.yellow-hr-color
     height: 100%;
     white-space: nowrap;
     text-align: center;
-    overflow-x: hidden;
-    overflow-y: auto;
+    /*overflow-x: hidden;
+    overflow-y: auto;*/
 }
 .v-wrap:before{
     content: "";
