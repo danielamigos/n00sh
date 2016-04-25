@@ -46,8 +46,7 @@
                                 Nut Butter Concepts, LLC<br/>
                                 4439 Ish Drive, Simi Valley, CA 93063<br/><br/>
 
-                                O. 000.000.0000<br/>
-                                F. 000.000.0000<br/>
+                                O. 805.522.5744<br/>
                                 E. info@nooshnutbutters.com
                                 </p>
                                 

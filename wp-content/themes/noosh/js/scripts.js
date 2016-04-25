@@ -6,9 +6,18 @@
 		
 		// DOM ready, take it away
 		setInterval(NextSlide,5000);
+	
+		$('.open-recipe').click(function(event){
+			event.preventDefault();
+			$(this).closest('.first-level-row').next('.recipe-details').slideDown();
+		});
+		$('.close-recipe').click(function(event){
+			event.preventDefault();
+			$(this).closest('.recipe-details').slideUp();
+		});
+		
 		
 	});	
-	
 	
 	function NextSlide()
 	{
@@ -33,8 +42,7 @@
 				$(nextSlide).show("slide",  { direction: "down",easing: 'easeInOutExpo' }, function(){
 					 $(slideWrapper).attr('data-current-slide',currentSlideIndex);
 				});
-			}); 
-		
+			}); 	
 			
 		}); 
 	}

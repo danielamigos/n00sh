@@ -73,7 +73,7 @@
                         <p class="brown-font-color fancy-font large-fancy-size" >Manufacturing Capabilities</p>
                         <hr class="white-hr-color normal-bottom-padding"/>
                         <p class="red-font-color normal-regular-size normal-regular-font normal-side-padding">Our state-of-the-art facility at Nut Butter Concepts offers a wide range capabilities. Curious about opportunities using our almonds?</p>
-                         <button class="noosh-button normal-bold-font white-font-color red-background-color">Learn More</button>
+                         <a class="noosh-button normal-bold-font white-font-color red-background-color" href="#">Learn More</a>
                     </div>
                 </div>
             </div>

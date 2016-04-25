@@ -4,15 +4,15 @@
     <div class="row first-level-row" >        
         <div class="col-xs-12 h-xs-12  col-sm-6 h-sm-6">
             <div class="first-level-solid-column-left">            
-                <?PHP $flag = 0; while (have_rows('headlines') ) : the_row(); $image = get_sub_field('background_image'); ?>
-                <div class="h-content <?PHP the_field('first_row_left_column_background_color'); if( have_rows('first_row_left_column_images') ): ?>  noosh-slide-wrapper<?PHP endif; ?>">                  
+                <div class="h-content  noosh-slide-wrapper red-background-color">         
+                  <?PHP $flag = 0; while (have_rows('headlines') ) : the_row(); $image = get_sub_field('background_image'); ?>         
                     <div class="v-wrap noosh-slide" style="background-image:url(<?php echo $image['url']; ?>); background-size:cover; <?PHP if($flag==0) $flag=1; else echo 'display:none;'; ?>">
                         <div class="v-box">
                             <p class="fancy-font jumbo-fancy-size normal-side-padding <?PHP the_sub_field('headline_font_color'); ?>"><?PHP the_sub_field('headline_text'); ?></p>
                         </div>
                     </div>
+                  <?PHP endwhile; ?>
                 </div>
-                <?PHP endwhile; ?>
             </div>
         </div>
         
@@ -46,7 +46,7 @@
                         </div>
                         <p class="normal-regular-size normal-bold-font brown-font-color normal-side-padding">Ingredients:</p>
                         <p class="normal-regular-size normal-regular-font light-brown-font-color normal-side-padding"><?PHP the_field('ingredients'); ?></p>
-                        <img  alt="Nutritional" src="<?PHP echo get_field('nutritional_image')['url']; ?>" style="padding-left:30px; width:100%;"/>
+                        <img  alt="Nutritional" src="<?PHP echo get_field('nutritional_image')['url']; ?>" style="padding-left:30px;padding-right:30px; width:100%;"/>
                     </div>
                 </div>
             </div>
