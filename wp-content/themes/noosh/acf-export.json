@@ -1,4 +1,3 @@
-
 [
     {
         "key": "group_571c00ce1eb24",
@@ -100,7 +99,7 @@
             {
                 "key": "field_571c14ba421d2",
                 "label": "First Row Right Column",
-                "name": "first_row_right_column",
+                "name": "",
                 "type": "tab",
                 "instructions": "",
                 "required": 0,
@@ -368,27 +367,6 @@
                 "endpoint": 1
             },
             {
-                "key": "field_571c17d6421de",
-                "label": "Second Row Left Column Heading",
-                "name": "second_row_left_column_heading",
-                "type": "text",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": "",
-                "prepend": "",
-                "append": "",
-                "maxlength": "",
-                "readonly": 0,
-                "disabled": 0
-            },
-            {
                 "key": "field_571c17ed421df",
                 "label": "Second Row Left Text",
                 "name": "second_row_left_text",
@@ -408,74 +386,6 @@
                 "maxlength": "",
                 "readonly": 0,
                 "disabled": 0
-            },
-            {
-                "key": "field_571c1838fecb7",
-                "label": "Second Row Left Column Button Text",
-                "name": "second_row_left_column_button_text",
-                "type": "text",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": "",
-                "prepend": "",
-                "append": "",
-                "maxlength": "",
-                "readonly": 0,
-                "disabled": 0
-            },
-            {
-                "key": "field_571c1848fecb8",
-                "label": "Second Row Left Column Button Link",
-                "name": "second_row_left_column_button_link",
-                "type": "text",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": "",
-                "prepend": "",
-                "append": "",
-                "maxlength": "",
-                "readonly": 0,
-                "disabled": 0
-            },
-            {
-                "key": "field_571c186efecb9",
-                "label": "Second Row Left Column Button Target",
-                "name": "second_row_left_column_button_target",
-                "type": "select",
-                "instructions": "Select where the link will open: in the same tab or open the link in a new tab",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "choices": {
-                    "_self": "Same Tab",
-                    "_blank": "New Page\/Tab"
-                },
-                "default_value": [],
-                "allow_null": 0,
-                "multiple": 0,
-                "ui": 0,
-                "ajax": 0,
-                "placeholder": "",
-                "disabled": 0,
-                "readonly": 0
             },
             {
                 "key": "field_571c1909fecba",
@@ -518,9 +428,9 @@
                 "mime_types": ""
             },
             {
-                "key": "field_571c1938fecbc",
-                "label": "Third Row",
-                "name": "",
+                "key": "field_571c1b25c8f38",
+                "label": "Third Row Left Column",
+                "name": "third_row_left_column",
                 "type": "tab",
                 "instructions": "",
                 "required": 0,
@@ -534,10 +444,10 @@
                 "endpoint": 1
             },
             {
-                "key": "field_571c196dfecbd",
-                "label": "Third Row Recipes",
-                "name": "third_row_recipes",
-                "type": "repeater",
+                "key": "field_5760ce84bf802",
+                "label": "Third Row Left Column Image",
+                "name": "third_row_left_column_image",
+                "type": "image",
                 "instructions": "",
                 "required": 0,
                 "conditional_logic": 0,
@@ -546,107 +456,23 @@
                     "class": "",
                     "id": ""
                 },
-                "collapsed": "field_571c19affecbf",
-                "min": 1,
-                "max": "",
-                "layout": "block",
-                "button_label": "Add Recipe",
-                "sub_fields": [
-                    {
-                        "key": "field_571c1981fecbe",
-                        "label": "Image",
-                        "name": "image",
-                        "type": "image",
-                        "instructions": "",
-                        "required": 0,
-                        "conditional_logic": 0,
-                        "wrapper": {
-                            "width": "",
-                            "class": "",
-                            "id": ""
-                        },
-                        "return_format": "array",
-                        "preview_size": "thumbnail",
-                        "library": "all",
-                        "min_width": "",
-                        "min_height": "",
-                        "min_size": "",
-                        "max_width": "",
-                        "max_height": "",
-                        "max_size": "",
-                        "mime_types": ""
-                    },
-                    {
-                        "key": "field_571c19affecbf",
-                        "label": "Recipe Name",
-                        "name": "recipe_name",
-                        "type": "text",
-                        "instructions": "",
-                        "required": 0,
-                        "conditional_logic": 0,
-                        "wrapper": {
-                            "width": "",
-                            "class": "",
-                            "id": ""
-                        },
-                        "default_value": "",
-                        "placeholder": "",
-                        "prepend": "",
-                        "append": "",
-                        "maxlength": "",
-                        "readonly": 0,
-                        "disabled": 0
-                    },
-                    {
-                        "key": "field_571c19b8fecc0",
-                        "label": "Recipe Description",
-                        "name": "recipe_description",
-                        "type": "textarea",
-                        "instructions": "",
-                        "required": 0,
-                        "conditional_logic": 0,
-                        "wrapper": {
-                            "width": "",
-                            "class": "",
-                            "id": ""
-                        },
-                        "default_value": "",
-                        "placeholder": "",
-                        "maxlength": "",
-                        "rows": 4,
-                        "new_lines": "",
-                        "readonly": 0,
-                        "disabled": 0
-                    },
-                    {
-                        "key": "field_571c19c5fecc1",
-                        "label": "Recipe Anchor",
-                        "name": "recipe_anchor",
-                        "type": "text",
-                        "instructions": "Write the \"Anchor\" configured in the Recipes page to link to a specific recipe.",
-                        "required": 0,
-                        "conditional_logic": 0,
-                        "wrapper": {
-                            "width": "",
-                            "class": "",
-                            "id": ""
-                        },
-                        "default_value": "",
-                        "placeholder": "",
-                        "prepend": "",
-                        "append": "",
-                        "maxlength": "",
-                        "readonly": 0,
-                        "disabled": 0
-                    }
-                ]
+                "return_format": "array",
+                "preview_size": "thumbnail",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
             },
             {
-                "key": "field_571c1a88fecc2",
-                "label": "Third Row Recipes URL",
-                "name": "third_row_recipes_url",
-                "type": "url",
-                "instructions": "The URL or link to the Recipes page",
+                "key": "field_5760cf04bf803",
+                "label": "Third Row Right Column",
+                "name": "third_row_right_column",
+                "type": "tab",
+                "instructions": "",
                 "required": 0,
                 "conditional_logic": 0,
                 "wrapper": {
@@ -654,13 +480,13 @@
                     "class": "",
                     "id": ""
                 },
-                "default_value": "",
-                "placeholder": ""
+                "placement": "top",
+                "endpoint": 0
             },
             {
-                "key": "field_571c1aa1fecc3",
-                "label": "Third Row Recipes Button Text",
-                "name": "third_row_recipes_button_text",
+                "key": "field_5760cf14bf804",
+                "label": "Third Row Right Column Text",
+                "name": "third_row_right_column_text",
                 "type": "text",
                 "instructions": "",
                 "required": 0,
@@ -679,9 +505,9 @@
                 "disabled": 0
             },
             {
-                "key": "field_571c1b25c8f38",
-                "label": "Fourth Row",
-                "name": "fourth_row",
+                "key": "field_5760cf20bf805",
+                "label": "Fourth Row Left Column",
+                "name": "fourth_row_left_column",
                 "type": "tab",
                 "instructions": "",
                 "required": 0,
@@ -695,10 +521,10 @@
                 "endpoint": 1
             },
             {
-                "key": "field_571c1b57c8f39",
-                "label": "Fourth Row Image and Text",
-                "name": "fourth_row_image_and_text",
-                "type": "repeater",
+                "key": "field_5760cf37bf806",
+                "label": "Fourth Row Left Column Text",
+                "name": "fourth_row_left_column_text",
+                "type": "text",
                 "instructions": "",
                 "required": 0,
                 "conditional_logic": 0,
@@ -707,79 +533,53 @@
                     "class": "",
                     "id": ""
                 },
-                "collapsed": "",
-                "min": 1,
-                "max": "",
-                "layout": "table",
-                "button_label": "Add Image and Text",
-                "sub_fields": [
-                    {
-                        "key": "field_571c1b7ac8f3a",
-                        "label": "Image",
-                        "name": "image",
-                        "type": "image",
-                        "instructions": "",
-                        "required": 0,
-                        "conditional_logic": 0,
-                        "wrapper": {
-                            "width": "",
-                            "class": "",
-                            "id": ""
-                        },
-                        "return_format": "array",
-                        "preview_size": "thumbnail",
-                        "library": "all",
-                        "min_width": "",
-                        "min_height": "",
-                        "min_size": "",
-                        "max_width": "",
-                        "max_height": "",
-                        "max_size": "",
-                        "mime_types": ""
-                    },
-                    {
-                        "key": "field_571c1b82c8f3b",
-                        "label": "Top Box Text",
-                        "name": "top_box_text",
-                        "type": "text",
-                        "instructions": "",
-                        "required": 0,
-                        "conditional_logic": 0,
-                        "wrapper": {
-                            "width": "",
-                            "class": "",
-                            "id": ""
-                        },
-                        "default_value": "",
-                        "placeholder": "",
-                        "prepend": "",
-                        "append": "",
-                        "maxlength": "",
-                        "readonly": 0,
-                        "disabled": 0
-                    },
-                    {
-                        "key": "field_571c1b8cc8f3c",
-                        "label": "Bottom Box Text",
-                        "name": "bottom_box_text",
-                        "type": "text",
-                        "instructions": "",
-                        "required": 0,
-                        "conditional_logic": 0,
-                        "wrapper": {
-                            "width": "",
-                            "class": "",
-                            "id": ""
-                        },
-                        "default_value": "",
-                        "placeholder": "",
-                        "prepend": "",
-                        "append": "",
-                        "maxlength": "",
-                        "readonly": 0,
-                        "disabled": 0
-                    }
-                ]
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5760cf48bf807",
+                "label": "Fourth Row Right Column",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5760cf54bf808",
+                "label": "Fourth Row Right Column Image",
+                "name": "fourth_row_right_column_image",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "thumbnail",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
             }
         ],
         "location": [
@@ -1060,10 +860,10 @@
                 "disabled": 0
             },
             {
-                "key": "field_571d647c844c0",
-                "label": "Nutritional Image",
-                "name": "nutritional_image",
-                "type": "image",
+                "key": "field_5760d351747b0",
+                "label": "Nutritional Link Text",
+                "name": "nutritional_link_text",
+                "type": "text",
                 "instructions": "",
                 "required": 0,
                 "conditional_logic": 0,
@@ -1072,16 +872,34 @@
                     "class": "",
                     "id": ""
                 },
-                "return_format": "array",
-                "preview_size": "thumbnail",
-                "library": "all",
-                "min_width": "",
-                "min_height": "",
-                "min_size": "",
-                "max_width": "",
-                "max_height": "",
-                "max_size": "",
-                "mime_types": ""
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5760d33f747af",
+                "label": "Nutritional Link",
+                "name": "nutritional_link",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
             },
             {
                 "key": "field_571d648e844c1",
@@ -1167,8 +985,8 @@
             },
             {
                 "key": "field_571d64f4844c5",
-                "label": "Third Row Left Column",
-                "name": "",
+                "label": "Third Row Fun Facts",
+                "name": "third_row_fun_facts",
                 "type": "tab",
                 "instructions": "",
                 "required": 0,
@@ -1182,10 +1000,10 @@
                 "endpoint": 1
             },
             {
-                "key": "field_571d650d844c6",
-                "label": "Fun Fact Heading",
-                "name": "fun_fact_heading",
-                "type": "text",
+                "key": "field_5760d92035d19",
+                "label": "Fun Facts",
+                "name": "fun_facts",
+                "type": "repeater",
                 "instructions": "",
                 "required": 0,
                 "conditional_logic": 0,
@@ -1194,74 +1012,79 @@
                     "class": "",
                     "id": ""
                 },
-                "default_value": "",
-                "placeholder": "",
-                "prepend": "",
-                "append": "",
-                "maxlength": "",
-                "readonly": 0,
-                "disabled": 0
-            },
-            {
-                "key": "field_571d6518844c7",
-                "label": "Fun Fact Text",
-                "name": "fun_fact_text",
-                "type": "text",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": "",
-                "prepend": "",
-                "append": "",
-                "maxlength": "",
-                "readonly": 0,
-                "disabled": 0
-            },
-            {
-                "key": "field_571d6521844c8",
-                "label": "Third Row Right Column",
-                "name": "third_row_right_column",
-                "type": "tab",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "placement": "top",
-                "endpoint": 0
-            },
-            {
-                "key": "field_571d6535844c9",
-                "label": "Third Row Right Column Image",
-                "name": "third_row_right_column_image",
-                "type": "image",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "return_format": "array",
-                "preview_size": "thumbnail",
-                "library": "all",
-                "min_width": "",
-                "min_height": "",
-                "min_size": "",
-                "max_width": "",
-                "max_height": "",
-                "max_size": "",
-                "mime_types": ""
+                "collapsed": "",
+                "min": "",
+                "max": "",
+                "layout": "table",
+                "button_label": "Add Row",
+                "sub_fields": [
+                    {
+                        "key": "field_5760d92b35d1a",
+                        "label": "Fun Fact Heading",
+                        "name": "fun_fact_heading",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_5760d94135d1b",
+                        "label": "Fun Fact Text",
+                        "name": "fun_fact_text",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_5760d95335d1c",
+                        "label": "Fun Fact Image",
+                        "name": "fun_fact_image",
+                        "type": "image",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "array",
+                        "preview_size": "thumbnail",
+                        "library": "all",
+                        "min_width": "",
+                        "min_height": "",
+                        "min_size": "",
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": "",
+                        "mime_types": ""
+                    }
+                ]
             }
         ],
         "location": [
@@ -1287,7 +1110,295 @@
     {
         "key": "group_571d8697e63b0",
         "title": "Recipes",
-        "fields": [],
+        "fields": [
+            {
+                "key": "field_571d87feac10c",
+                "label": "Recipes Heading",
+                "name": "recipes_heading",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_571d8821ac10d",
+                "label": "Recipes",
+                "name": "recipes",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "field_571d88baee523",
+                "min": "",
+                "max": "",
+                "layout": "block",
+                "button_label": "Add Recipe",
+                "sub_fields": [
+                    {
+                        "key": "field_571d8855ee522",
+                        "label": "Recipe Type",
+                        "name": "recipe_type",
+                        "type": "checkbox",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "Breakfast": "Breakfast",
+                            "Lunch": "Lunch",
+                            "Dinner": "Dinner",
+                            "Appetizers": "Appetizers",
+                            "Drinks": "Drinks",
+                            "Desserts": "Desserts",
+                            "Side Dishes": "Side Dishes",
+                            "Snacks": "Snacks"
+                        },
+                        "default_value": [],
+                        "layout": "horizontal",
+                        "toggle": 0
+                    },
+                    {
+                        "key": "field_571d88baee523",
+                        "label": "Recipe Name",
+                        "name": "recipe_name",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_571d88c9ee524",
+                        "label": "Description",
+                        "name": "description",
+                        "type": "textarea",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "maxlength": "",
+                        "rows": 4,
+                        "new_lines": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_571d8984ee525",
+                        "label": "Dificulty",
+                        "name": "dificulty",
+                        "type": "select",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "Easy": "Easy",
+                            "Easy - Moderate": "Easy - Moderate",
+                            "Moderate": "Moderate",
+                            "Moderate - Hard": "Moderate - Hard",
+                            "Hard": "Hard"
+                        },
+                        "default_value": [],
+                        "allow_null": 0,
+                        "multiple": 0,
+                        "ui": 0,
+                        "ajax": 0,
+                        "placeholder": "",
+                        "disabled": 0,
+                        "readonly": 0
+                    },
+                    {
+                        "key": "field_571d9e68d4077",
+                        "label": "Image",
+                        "name": "image",
+                        "type": "image",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "array",
+                        "preview_size": "thumbnail",
+                        "library": "all",
+                        "min_width": "",
+                        "min_height": "",
+                        "min_size": "",
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": "",
+                        "mime_types": ""
+                    },
+                    {
+                        "key": "field_571d89a0ee526",
+                        "label": "Prep Time",
+                        "name": "prep_time",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_571d89a8ee527",
+                        "label": "Total Time",
+                        "name": "total_time",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_571d89b0ee528",
+                        "label": "Servings",
+                        "name": "servings",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_571d89c3ee529",
+                        "label": "Ingredients",
+                        "name": "ingredients",
+                        "type": "textarea",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "maxlength": "",
+                        "rows": "",
+                        "new_lines": "br",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_571d89e8ee52a",
+                        "label": "Directions",
+                        "name": "directions",
+                        "type": "wysiwyg",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "tabs": "all",
+                        "toolbar": "full",
+                        "media_upload": 1
+                    },
+                    {
+                        "key": "field_571d8a08ee52b",
+                        "label": "Anchor",
+                        "name": "anchor",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    }
+                ]
+            }
+        ],
         "location": [
             [
                 {
@@ -1302,7 +1413,9 @@
         "style": "default",
         "label_placement": "top",
         "instruction_placement": "label",
-        "hide_on_screen": "",
+        "hide_on_screen": [
+            "the_content"
+        ],
         "active": 1,
         "description": ""
     }
