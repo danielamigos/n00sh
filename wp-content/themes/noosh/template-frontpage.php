@@ -1,65 +1,23 @@
 <?php /* Template Name: Frontpage Template */ get_header(); ?>
 
-    <div class="row first-level-row" >
-        <div class="col-xs-12 h-xs-12 col-sm-6 h-sm-6">
-            <div class="first-level-solid-column-left" >
-                <div class="h-content <?PHP the_field('first_row_left_column_background_color'); if( have_rows('first_row_left_column_images') ): ?>  noosh-slide-wrapper<?PHP endif; ?>">
-                  <?php $flag = 0; while ( have_rows('first_row_left_column_images') ) : the_row(); $image = get_sub_field('image'); ?>
-                    <div class="v-wrap noosh-slide" style="background-image:url(<?php echo $image['url']; ?>); background-size:cover; <?PHP if($flag==0) $flag=1; else echo 'display:none;'; ?>">
-                    </div>
-                  <?PHP endwhile; ?>
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 first-level-hollow-column-right"  >
-            <div class="row second-level-row"> 
-                <div class="col-xs-6 h-xs-6" >
-                    <div class="second-level-column-left"  >
-                        <div class="h-content brown-background-color <?PHP if( have_rows('first_row_right_column_box_1_texts') ): ?>  noosh-slide-wrapper<?PHP endif; ?>">
-                          <?PHP $flag = 0; while ( have_rows('first_row_right_column_box_1_texts') ) : the_row(); ?>
-                            <div class="v-wrap noosh-slide" style="<?PHP if($flag==0) $flag=1; else echo 'display:none;'; ?>">
-                                <p class="light-yellow-font-color fancy-font large-fancy-size normal-side-padding v-box"><?PHP the_sub_field('text'); ?></p>
-                            </div>
-                          <?PHP endwhile; ?>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 h-xs-6">
-                    <div class="second-level-column-right" >
-                        <div class="h-content <?PHP the_field('first_row_right_column_box_2_background_color'); if( have_rows('first_row_right_column_box_2_images') ): ?>  noosh-slide-wrapper<?PHP endif; ?>">
-                          <?php $flag = 0; while ( have_rows('first_row_right_column_box_2_images') ) : the_row(); $image = get_sub_field('image'); ?>
-                            <div class="v-wrap noosh-slide" style="background-image:url(<?php echo $image['url']; ?>); background-size:cover; <?PHP if($flag==0) $flag=1; else echo 'display:none;'; ?>">
-                            </div>
-                          <?PHP endwhile; ?>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row second-second-level-row"> 
-                <div class="col-xs-6 h-xs-6">
-                    <div class="second-level-column-left"> 
-                        <div class="h-content <?PHP the_field('first_row_right_column_box_3_background_color'); if( have_rows('first_row_right_column_box_3_images') ): ?>  noosh-slide-wrapper<?PHP endif; ?>">
-                          <?php $flag = 0; while ( have_rows('first_row_right_column_box_3_images') ) : the_row(); $image = get_sub_field('image'); ?>
-                            <div class="v-wrap noosh-slide" style="background-image:url(<?php echo $image['url']; ?>); background-size:cover; <?PHP if($flag==0) $flag=1; else echo 'display:none;'; ?>">
-                            </div>
-                          <?PHP endwhile; ?>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 h-xs-6" >
-                    <div class="second-level-column-right">
-                        <div class="h-content yellow-background-color <?PHP if( have_rows('first_row_right_column_box_4_texts') ): ?>  noosh-slide-wrapper<?PHP endif; ?>" >  
-                          <?PHP $flag = 0; while ( have_rows('first_row_right_column_box_4_texts') ) : the_row(); ?>
-                            <div class="v-wrap noosh-slide" style="<?PHP if($flag==0) $flag=1; else echo 'display:none;'; ?>">                          
-                                <p class="brown-font-color fancy-font large-fancy-size normal-side-padding v-box"><?PHP the_sub_field('text'); ?></p>
-                            </div>
-                          <?PHP endwhile; ?>
+   
+    <div class="row first-level-row" >        
+        <div class="col-xs-12 h-xs-12  col-sm-12 h-sm-6">
+            <div class="first-level-solid-column-left">            
+                <div class="h-content red-background-color">         
+                  <?PHP $image = get_field('first_row_image'); ?>         
+                    <div class="v-wrap" style="background-image:url(<?PHP echo $image['url']; ?>); background-size:cover;padding: 5%;text-align:right;">
+                        <div class="v-box" style="max-width:35%;padding: 5%;text-align:center;">
+                            <p class="fancy-font large-fancy-size normal-side-padding  red-font-color"><?PHP the_field('first_row_heading'); ?></p>
+                            <p class="fancy-font large-fancy-size normal-side-padding  brown-font-color"><?PHP the_field('first_row_sub_heading'); ?></p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+   
     
     
     <div class="row first-level-row" <?php //style="padding-top:12px;"?> >
