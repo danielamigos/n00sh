@@ -319,7 +319,7 @@ div > div.second-level-vertical-stack-top
 
 .fancy-font
 {
-    font-family:'ThirstyScriptLight';      
+    font-family:'PonyTalePro';      
 }
 
 .normal-regular-font
@@ -642,6 +642,18 @@ p.noosh-white-text
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'PonyTalePro';
+    src: url('fonts/314DC3_0_0.eot');
+    src: url('fonts/314DC3_0_0.eot?#iefix') format('embedded-opentype'),
+        url('fonts/314DC3_0_0.woff2') format('woff2'),
+        url('fonts/314DC3_0_0.woff') format('woff'),
+        url('fonts/314DC3_0_0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+ 
   
 [data-icon]:before {
   font-family: "noosh-icons" !important;

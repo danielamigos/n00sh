@@ -46,7 +46,7 @@
                         </div>
                         <p class="normal-regular-size normal-bold-font brown-font-color normal-side-padding">Ingredients:</p>
                         <p class="normal-regular-size normal-regular-font light-brown-font-color normal-side-padding"><?PHP the_field('ingredients'); ?></p>
-                        <img  alt="Nutritional" src="<?PHP echo get_field('nutritional_image')['url']; ?>" style="padding-left:30px;padding-right:30px; width:100%;"/>
+                        <p class="normal-regular-size normal-regular-font light-brown-font-color normal-side-padding"><a href="<?PHP the_field('nutritional_link'); ?>"><?PHP the_field('nutritional_link_text'); ?></a></p>
                     </div>
                 </div>
             </div>
@@ -80,24 +80,29 @@
     </div>
     
     
-    <div class="row first-level-row" <?php //style="padding-top:12px;"?> >
+    <div class="row first-level-row">
         <div class="col-xs-12 h-xs-6 col-sm-3  h-sm-3 " >
-            <div class="first-level-solid-column-left" <?php //style="padding-right:12px; padding-bottom:12px;"?> >
-                <div style="background-color:#e8d3a2;" class="h-content v-wrap">
-                    <div class="v-box">                     
-                        <p class="brown-font-color fancy-font large-fancy-size" ><?PHP the_field('fun_fact_heading'); ?></p>
-                        <hr class="white-br-color normal-bottom-padding"/>
-                        <p class="normal-regular-size normal-regular-font red-font-color normal-side-padding"><?PHP the_field('fun_fact_text'); ?></p>
+            <div class="first-level-solid-column-left">
+                <div style="background-color:#e8d3a2;" class="h-content noosh-slide-wrapper">
+                  <?PHP $flag = 0; while (have_rows('fun_facts') ) : the_row();?>
+                    <div class="v-wrap noosh-slide" style="<?PHP if($flag==0) $flag=1; else echo 'display:none;'; ?>">
+                        <div class="v-box">                     
+                            <p class="brown-font-color fancy-font large-fancy-size" ><?PHP the_sub_field('fun_fact_heading'); ?></p>
+                            <hr class="white-br-color normal-bottom-padding"/>
+                            <p class="normal-regular-size normal-regular-font red-font-color normal-side-padding"><?PHP the_sub_field('fun_fact_text'); ?></p>
+                        </div>
                     </div>
+                  <?PHP endwhile; ?>
                 </div>
             </div>
         </div>        
-        <div class="col-xs-12 h-xs-4 col-sm-9 h-sm-3"  <?php //sstyle="padding-left:12px; padding-bottom:12px;"?> >
+        <div class="col-xs-12 h-xs-4 col-sm-9 h-sm-3">
             <div class="first-level-solid-column-right" >
-                <div class="h-content">
-                  <?php $image = get_field('third_row_right_column_image'); ?>
-                    <div class="v-wrap noosh-slide" style="background-image:url(<?php echo $image['url']; ?>); background-size:cover;">
+                <div class="h-content noosh-slide-wrapper">
+                  <?PHP $flag = 0; while (have_rows('fun_facts') ) : the_row(); $image = get_sub_field('fun_fact_image'); ?>
+                    <div class="v-wrap noosh-slide" style="background-image:url(<?php echo $image['url']; ?>); background-size:cover;<?PHP if($flag==0) $flag=1; else echo 'display:none;'; ?>">
                     </div>
+                  <?PHP endwhile; ?>
                 </div>
             </div>
         </div>

@@ -8,7 +8,7 @@
                     <div class="v-box">
                         <p class="brown-font-color fancy-font large-fancy-size" ><?PHP the_field('recipes_heading'); ?></p>
                         <hr class="red-hr-color normal-bottom-padding"/>
-                        <p class="brown-font-color large-regular-size normal-regular-font normal-side-padding">Breakfast | Lunch | Dinner | Appetizers | Drinks | Desserts | Side Dishes | Snacks</p>
+                        <!--<p class="brown-font-color large-regular-size normal-regular-font normal-side-padding">Breakfast | Lunch | Dinner | Appetizers | Drinks | Desserts | Side Dishes | Snacks</p>-->
                     </div>
                 </div>
             </div>
@@ -18,6 +18,7 @@
     
     <?PHP 
     $count = 1;
+    $counter2 = 1;
     $styles = array(
         1 => array('background'=>'light-brown-background-color','type'=>'white-font-color normal-regular-font large-regular-size','name'=>'fancy-font large-fancy-size white-font-color',
                     'hr'=>'yellow-hr-color normal-bottom-padding','description'=>'normal-regular-size white-font-color normal-regular-font normal-side-padding','button'=>'noosh-button normal-bold-font brown-font-color yellow-background-color'),
@@ -56,7 +57,7 @@
                             Difficulty: 
                             <?PHP the_sub_field('dificulty'); ?>
                             </p>
-                            <a class="<?PHP echo $styles[$count]['button']; ?> open-recipe" href="#">Recipe</a>
+                            <a class="<?PHP echo $styles[$count]['button']; ?> open-recipe" href="#recipe<?PHP echo $counter2; ?>">Recipe</a>
                         </div>
                     </div>
                 </div>
@@ -78,7 +79,7 @@
                                     Difficulty: 
                                 <?PHP the_sub_field('dificulty'); ?>
                                     </p>
-                            <a class="<?PHP echo $styles[$count]['button']; ?> open-recipe" href="#" >Recipe</a>
+                            <a class="<?PHP echo $styles[$count]['button']; ?> open-recipe" href="#recipe<?PHP echo $counter2; ?>" >Recipe</a>
                         </div>
                     </div>
                 </div>
@@ -97,7 +98,7 @@
     
     
         
-    <div class="row first-level-row recipe-details" style="display:none;">
+    <div class="row first-level-row recipe-details" style="display:none;" id="recipe<?PHP echo $counter2; ?>">
         <div class="col-sm-12" >
             <div class="first-level-solid-column-solo">               
                  <div class="row first-level-row show-me light-yellow-background-color"  >
@@ -105,7 +106,7 @@
                         <p class="red-font-color normal-bold-font normal-regular-size normal-side-padding">
                             <?PHP if(get_sub_field('prep_time')): ?>Prep Time: <?PHP the_sub_field('prep_time') ?><br/><?PHP endif; 
                              if(get_sub_field('total_time')): ?>Total Time: <?PHP the_sub_field('total_time') ?><br/><?PHP endif; 
-                             if(get_sub_field('servings')): ?>?>Servings: <?PHP the_sub_field('servings'); endif;?>
+                             if(get_sub_field('servings')): ?>?>Servings: <?PHP the_sub_field('servings'); endif;?> 
                         </p>
                         <hr class="brown-hr-color normal-bottom-padding" />
                         <p class="brown-font-color normal-bold-font normal-regular-size normal-side-padding">Ingredients:</p>
@@ -128,7 +129,8 @@
         $count = 1;
      else   
         $count++; 
-     endwhile; ?>
+    $counter2++; 
+    endwhile; ?>
     
        
  
