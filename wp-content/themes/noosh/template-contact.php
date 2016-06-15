@@ -19,7 +19,7 @@
     
     
     <div class="row first-level-row"  <?php //style="padding-top:12px; "?> >
-        <div class="col-xs-12 h-xs-3" >
+        <div class="col-xs-12 h-xs-4" >
             <div class="first-level-solid-column-solo"  <?php //style="padding-left:12px; padding-bottom:12px;"?> >
                 <div class="h-content v-wrap cream-background-color">
                     <div class="v-box" style="width:100%; text-align:left;" >
