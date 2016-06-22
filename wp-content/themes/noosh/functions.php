@@ -115,9 +115,9 @@ function noosh_header_scripts()
 // Load Noosh conditional scripts
 function noosh_conditional_scripts()
 {
-    if (is_page('pagenamehere')) {
-        wp_register_script('scriptname', get_template_directory_uri() . '/js/scriptname.js', array('jquery'), '1.0.0'); // Conditional script(s)
-        wp_enqueue_script('scriptname'); // Enqueue it!
+    if (is_page_template('template-frontpage.php')) {
+        wp_register_script('template-frontpage', get_template_directory_uri() . '/js/template-frontpage.js', array('jquery'), '1.0.0'); // Custom scripts
+        wp_enqueue_script('template-frontpage'); // Enqueue it!
     }
 }
 

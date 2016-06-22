@@ -31,22 +31,10 @@
     <div class="row first-level-row"  <?php //style="padding-top:12px; "?> >
         <div class="col-xs-12 h-xs-12  col-sm-6 h-sm-6">
             <div class="first-level-solid-column-left" <?PHP //style="padding-right:12px; padding-bottom:12px;" ?> >           
-                <div class="h-content v-wrap v-wrap-left cream-background-color">
+                <div class="h-content v-wrap yellow-background-color">
                     <div class="v-box">
-                        <p class="large-regular-size normal-regular-font red-font-color normal-side-padding" ><?PHP the_field('product_description'); ?></p>
-                        <hr class="brown-hr-color normal-bottom-padding"/>
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <p class="normal-regular-size normal-bold-font red-font-color normal-side-padding"><?PHP the_field('left_column_text'); ?></p>
-                            </div>
-                            <div class="col-sm-6">
-                                <p class="normal-regular-size normal-bold-font brown-font-color normal-side-padding">Benefits:</p>                                
-                                <p class="normal-regular-size normal-regular-font light-brown-font-color normal-side-padding"><?PHP the_field('benefits'); ?></p>
-                            </div>
-                        </div>
-                        <p class="normal-regular-size normal-bold-font brown-font-color normal-side-padding">Ingredients:</p>
-                        <p class="normal-regular-size normal-regular-font light-brown-font-color normal-side-padding"><?PHP the_field('ingredients'); ?></p>
-                        <p class="normal-regular-size normal-regular-font light-brown-font-color normal-side-padding"><a href="<?PHP the_field('nutritional_link'); ?>"><?PHP the_field('nutritional_link_text'); ?></a></p>
+                        <p class="venti-regular-size normal-regular-font brown-font-color normal-side-padding" ><?PHP the_field('product_description'); ?></p>                       
+                        <a href="<?PHP the_field('nutritional_link'); ?>" class="noosh-button normal-bold-font white-font-color red-background-color"><?PHP the_field('nutritional_link_text'); ?></a></p>
                     </div>
                 </div>
             </div>

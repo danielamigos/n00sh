@@ -304,6 +304,11 @@ div > div.second-level-vertical-stack-top
     font-size:17px; 
     line-height:20px;
 }
+.venti-regular-size
+{
+    font-size: 17px;
+    line-height:20px;
+}
 .large-regular-size
 {
     font-size: 14px;
@@ -518,6 +523,28 @@ hr.yellow-hr-color
     margin-bottom:0;   
 }
 
+.frontpage-jumbotron-wrapper
+{
+    background-size:cover;
+    /*padding: 5%;*/
+    text-align:center;
+}
+.frontpage-jumbotron
+{
+    max-width:100%;
+    text-align:center;
+}
+.frontpage-jumbotron .jumbotron-heading
+{   
+    font-size: 28px;
+    font-weight: bold;
+}
+.frontpage-jumbotron .jumbotron-subheading
+{
+    font-size: 20px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
 
 
 /*------------------------------------*\
@@ -816,6 +843,16 @@ p.noosh-white-text
     white-space: normal;
         margin-top: -20px;
 }
+  
+    
+    .frontpage-link-box .dark-fancy-title,
+    .frontpage-link-box .white-fancy-title
+    {
+        margin-bottom:0;
+        font-size:20px;
+        line-height: inherit; 
+           
+    }
     
     .jumbo-fancy-size
     {
@@ -833,15 +870,12 @@ p.noosh-white-text
         padding-right: 6px;
         margin-top: 14px;
     }
-  
-    
-    .frontpage-link-box .dark-fancy-title,
-    .frontpage-link-box .white-fancy-title
+    .venti-regular-size
     {
-        margin-bottom:0;
-        font-size:20px;
-        line-height: inherit; 
-           
+        font-size:20px; 
+        line-height: 29px;
+        padding-left: 6px;
+        padding-right: 6px;
     }
     
     .large-regular-size
@@ -910,9 +944,13 @@ p.noosh-white-text
         margin-top: 15px;
     }
    
-  
-    
-   
+    .venti-regular-size
+    {
+        font-size:24px; 
+        line-height: 32px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
     .large-regular-size
     {
         font-size: 12px;
@@ -1122,10 +1160,14 @@ p.noosh-white-text
         padding-left: 8px;
         padding-right: 8px;
         margin-top: 15px;
+    }   
+    .venti-regular-size
+    {
+        font-size:23px; 
+        line-height: 32px;
+        padding-left: 8px;
+        padding-right: 8px;
     }
-    
-    
-  
     .large-regular-size
     {
         font-size: 12px;
@@ -1160,6 +1202,28 @@ p.noosh-white-text
         font-size: 17px; 
         height: 31px; 
         width: 109px;
+    }
+    
+    .frontpage-jumbotron-wrapper
+    {
+        background-size:cover;
+        text-align:right;
+    }
+    .frontpage-jumbotron
+    {
+        max-width:40%;
+        text-align:center;
+    }
+    .frontpage-jumbotron .jumbotron-heading
+    {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .frontpage-jumbotron .jumbotron-subheading
+    {
+        font-size: 18px;
+        margin-bottom: 0;
+        font-weight: bold;
     }
 }
 
@@ -1304,7 +1368,21 @@ p.noosh-white-text
     p {
   margin: 0 0 12px 0;
 }
+  
+   
+    .frontpage-link-box .dark-fancy-title,
+    .frontpage-link-box .white-fancy-title
+    {
+        margin-bottom:10px;
+        font-size:28px;
+        line-height: 42px;   
+    }
     
+    .frontpage-link-box hr
+    {
+        margin-top:0;  
+        margin-bottom:20px;   
+    }    
   
     .jumbo-fancy-size
     {
@@ -1322,20 +1400,12 @@ p.noosh-white-text
         padding-right: 10px;
         margin-top: 12px;
     }
-  
-   
-    .frontpage-link-box .dark-fancy-title,
-    .frontpage-link-box .white-fancy-title
+    .venti-regular-size
     {
-        margin-bottom:10px;
         font-size:28px;
-        line-height: 42px;   
-    }
-    
-    .frontpage-link-box hr
-    {
-        margin-top:0;  
-        margin-bottom:20px;   
+        line-height: 36px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .large-regular-size
     {
@@ -1374,6 +1444,28 @@ p.noosh-white-text
     p.white-text
     { 
         font-size: 14px;
+    }
+    
+    .frontpage-jumbotron-wrapper
+    {
+        background-size:cover;
+        text-align:right;
+    }
+    .frontpage-jumbotron
+    {
+        max-width:40%;
+        text-align:center;
+    }
+    .frontpage-jumbotron .jumbotron-heading
+    {
+        font-size: 36px;
+        font-weight: bold;
+    }
+    .frontpage-jumbotron .jumbotron-subheading
+    {
+        font-size: 28px;
+        margin-bottom: 0;
+        font-weight: bold;
     }
 }
 /* Large Devices, Wide Screens */
@@ -1471,41 +1563,6 @@ p.noosh-white-text
         padding-bottom:24px;              
     }
     
-   .large-regular-size
-    {
-        font-size: 18px;
-        padding-left: 12px;
-        padding-right: 12px;
-        margin-top: 12px;
-    }
-    
-    .normal-regular-size
-    {
-        font-size: 18px;
-        padding-left: 12px;
-        padding-right: 12px;
-        margin-top: 12px;
-    }
-            .v-box{
-    display: inline-block;
-    vertical-align: middle;
-    white-space: normal;
-        margin-top: -24px;
-}
-    
-    hr
-{  
-    border-width:2px; 
-    margin-left:20px;
-    margin-right:20px;
-    margin-bottom:16px;
-    margin-top:-4px;
-}
-    
-    p {
-  margin: 0 0 19px 0;
-}
-    
    
     .jumbo-fancy-size
     {
@@ -1523,6 +1580,50 @@ p.noosh-white-text
         padding-right: 12px;
         margin-top: 20px;
     }
+    .venti-regular-size
+    {
+        font-size:34px;
+        line-height: 70px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+   .large-regular-size
+    {
+        font-size: 18px;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-top: 12px;
+    }
+    
+    .normal-regular-size
+    {
+        font-size: 18px;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-top: 12px;
+    }
+    .v-box
+    {
+        display: inline-block;
+        vertical-align: middle;
+        white-space: normal;
+        margin-top: -24px;
+    }
+        
+    hr
+    {  
+        border-width:2px; 
+        margin-left:20px;
+        margin-right:20px;
+        margin-bottom:16px;
+        margin-top:-4px;
+    }
+        
+    p
+    {
+        margin: 0 0 19px 0;
+    }
+    
     
     p.white-text
     { 
@@ -1534,6 +1635,30 @@ p.noosh-white-text
         font-size: 24px; 
         height: 31px; 
         width: 125px;
+    }
+    
+
+    .frontpage-jumbotron-wrapper
+    {
+        background-size:cover;
+        text-align:right;
+    }
+    .frontpage-jumbotron
+    {
+        max-width:40%;
+        text-align:center;
+    }
+    .frontpage-jumbotron .jumbotron-heading
+    {
+        font-size: 48px;
+        font-weight: bold;
+        line-height: 60px;
+    }
+    .frontpage-jumbotron .jumbotron-subheading
+    {
+        font-size: 34px;
+        margin-bottom: 0;
+        font-weight: bold;
     }
 }
 
@@ -1632,6 +1757,31 @@ p.noosh-white-text
         padding-bottom:24px;              
     }
     
+  
+    .jumbo-fancy-size
+    {
+        font-size: 92px; 
+        line-height: 110px;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-top: 22px;
+    }
+    .large-fancy-size
+    {
+        font-size:42px; 
+        line-height: 56px;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-top: 22px;
+    }
+    .venti-regular-size
+    {
+        font-size:42px; 
+        line-height: 56px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
    .large-regular-size
     {
         font-size: 22px;
@@ -1667,23 +1817,6 @@ p.noosh-white-text
   margin: 0 0 23px 0;
 }
     
-  
-    .jumbo-fancy-size
-    {
-        font-size: 92px; 
-        line-height: 110px;
-        padding-left: 12px;
-        padding-right: 12px;
-        margin-top: 22px;
-    }
-    .large-fancy-size
-    {
-        font-size:42px; 
-        line-height: 56px;
-        padding-left: 12px;
-        padding-right: 12px;
-        margin-top: 22px;
-    }
     
     p.white-text
     { 

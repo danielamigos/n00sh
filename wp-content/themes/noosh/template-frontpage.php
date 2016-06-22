@@ -6,10 +6,11 @@
             <div class="first-level-solid-column-left">            
                 <div class="h-content red-background-color">         
                   <?PHP $image = get_field('first_row_image'); ?>         
-                    <div class="v-wrap" style="background-image:url(<?PHP echo $image['url']; ?>); background-size:cover;padding: 5%;text-align:right;">
-                        <div class="v-box" style="max-width:35%;padding: 5%;text-align:center;">
-                            <p class="fancy-font large-fancy-size normal-side-padding  red-font-color"><?PHP the_field('first_row_heading'); ?></p>
-                            <p class="fancy-font large-fancy-size normal-side-padding  brown-font-color"><?PHP the_field('first_row_sub_heading'); ?></p>
+                    <div class="v-wrap frontpage-jumbotron-wrapper" style="background-image:url(<?PHP echo $image['url']; ?>);">
+                        <div class="v-box frontpage-jumbotron">
+                            <p class="jumbotron-heading fancy-font normal-side-padding red-font-color" style="opacity:0;"><?PHP the_field('first_row_heading'); ?></p>
+                            <p class="jumbotron-subheading jumbotron-subheading-1 fancy-font normal-side-padding brown-font-color" style="opacity:0;"><?PHP the_field('first_row_sub_heading'); ?></p>
+                            <p class="jumbotron-subheading jumbotron-subheading-2 fancy-font normal-side-padding brown-font-color" style="opacity:0;"><?PHP the_field('first_row_sub_heading_2'); ?></p>
                         </div>
                     </div>
                 </div>

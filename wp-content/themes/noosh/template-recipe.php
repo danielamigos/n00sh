@@ -106,7 +106,7 @@
                         <p class="red-font-color normal-bold-font normal-regular-size normal-side-padding">
                             <?PHP if(get_sub_field('prep_time')): ?>Prep Time: <?PHP the_sub_field('prep_time') ?><br/><?PHP endif; 
                              if(get_sub_field('total_time')): ?>Total Time: <?PHP the_sub_field('total_time') ?><br/><?PHP endif; 
-                             if(get_sub_field('servings')): ?>?>Servings: <?PHP the_sub_field('servings'); endif;?> 
+                             if(get_sub_field('servings')): ?>Servings: <?PHP the_sub_field('servings'); endif;?> 
                         </p>
                         <hr class="brown-hr-color normal-bottom-padding" />
                         <p class="brown-font-color normal-bold-font normal-regular-size normal-side-padding">Ingredients:</p>
