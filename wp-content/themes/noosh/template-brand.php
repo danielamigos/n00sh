@@ -2,30 +2,17 @@
         
     
    <div class="row first-level-row"  <?php //style="padding-top:12px; "?> >
-        <div class="col-xs-12 col-sm-6 first-level-hollow-column-left-vertical-stack">
-            <div class="row second-level-row">
-                <div class="col-xs-12 h-xs-6 col-sm-12 h-sm-6" >
-                    <div class="second-level-vertical-stack-left second-level-vertical-stack-top"  <?php //style="padding-left:12px; padding-bottom:12px;"?> >
-                        <div class="h-content v-wrap brown-background-color">                            
-                            <p class="large-fancy-size fancy-font light-yellow-font-color v-box normal-side-padding" >After one squeeze of Noosh Almond Butter, and you can never go back to stirring a jar again.</p>
+       <div class="col-xs-12 h-xs-12  col-sm-6 h-sm-6">
+            <div class="first-level-solid-column-left">            
+                <div class="h-content brown-background-color">                                
+                    <div class="v-wrap">
+                        <div class="v-box">
+                            <p class="fancy-font jumbo-fancy-size normal-side-padding light-yellow-font-color">After one squeeze of Noosh Almond Butter, you can never go back to stirring a jar again.</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row second-level-row"  <?php //style="padding-top:12px;"?> >
-                <div class="col-xs-12 h-xs-6 col-sm-12 h-sm-6" >
-                    <div class="second-level-vertical-stack-left"  <?php //style="padding-left:12px; padding-bottom:12px;"?> >
-                        <div class="h-content v-wrap red-background-color">  
-                            <div class="v-box">                              
-                                <p class="white-font-color fancy-font large-fancy-size normal-side-padding" >Why Almonds?</p>                            
-                                <hr class="yellow-hr-color normal-bottom-padding"/>                            
-                                <p class="cream-font-color normal-regular-font normal-regular-size normal-side-padding" >Simply put, almonds are extremely healthy.  They are high in monounsaturated fats-health promoting fats associated with reducing heart disease. Also, they have a low glycemic index and are a very good source of biotin, vitamin E, manganese and copper.</p>
-                            </div>       
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </div>    
         <div class="col-xs-12 col-sm-6 first-level-solid-column-right"  <?php //style="padding-right:12px;"?> >
             <img alt="image10" src="<?php echo get_template_directory_uri(); ?>/img/noosh-brand-img-5.jpg"  style="width:100%"/>
         </div>
@@ -41,9 +28,9 @@
                     <div class="second-level-vertical-stack-right second-level-vertical-stack-top"  <?php //style="padding-left:12px; padding-bottom:12px;"?> >
                         <div class="h-content v-wrap light-brown-background-color">                            
                              <div class="v-box">
-                                <p class="white-font-color fancy-font large-fancy-size" >Our Story</p>
+                                <p class="white-font-color fancy-font large-fancy-size" >Why Almonds?</p>
                                 <hr class="yellow-hr-color normal-bottom-padding"/>
-                                <p class="white-font-color normal-regular-size normal-regular-font normal-side-padding">Our family farming roots were established over 90 years ago. Since 2001, our state-of-the art facility in Los Angeles has been producing silky-smooth almond butter. Needless to say, we know a lot about almonds and we are passionate about what we do.</p>
+                                <p class="white-font-color normal-regular-size normal-regular-font normal-side-padding">Simply put, almonds are extremely healthy.  They are high in monounsaturated fats-health promoting fats associated with reducing heart disease. Also, they have a low glycemic index and are a very good source of biotin, vitamin E, manganese and copper.</p>
                             </div>
                         </div>
                     </div>
@@ -78,10 +65,7 @@
                     <div class=" v-box">
                         <p class="brown-font-color fancy-font large-fancy-size" >Our Commitment to you.</p>
                         <hr class="white-hr-color normal-bottom-padding"/>
-                        <p class="red-font-color normal-regular-size normal-regular-font normal-side-padding">We pride ourselves in using only the highest grade of California almonds. 
-We have always said, “You can close your eyes and feed a spoonful 
-of Noosh Almond Butter to a child without reservations.” Our commitment to 
-providing almond butter in the marketplace is equivalent to our commitment in helping those that are less fortunate around the world. The Noosh Almond Butter company is a proud sponsor of many philanthropic organizations. </p>
+                        <p class="red-font-color normal-regular-size normal-regular-font normal-side-padding">We pride ourselves in using only the highest grade of California almonds. We have always said, “You can close your eyes and feed a spoonful of Noosh Almond Butter to a child without reservations.”</p>
                     </div>
                 </div>
             </div>

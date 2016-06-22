@@ -52,7 +52,7 @@
                             <div class="top-centered-box-position"><p class="<?PHP echo $styles[$count]['type']; ?>"><?PHP the_sub_field('recipe_type'); ?></p></p></div>
                             <p class="<?PHP echo $styles[$count]['name']; ?>" ><?PHP the_sub_field('recipe_name'); ?></p>
                             <hr class="<?PHP echo $styles[$count]['hr']; ?> normal-bottom-padding"/>
-                            <p class="<?PHP echo $styles[$count]['description']; ?>">Description: <?PHP the_sub_field('description'); ?>
+                            <p class="<?PHP echo $styles[$count]['description']; ?>"><?PHP the_sub_field('description'); ?>
                             <br/><br/>
                             Difficulty: 
                             <?PHP the_sub_field('dificulty'); ?>
@@ -75,7 +75,7 @@
                             <div class="top-centered-box-position"><p class="<?PHP echo $styles[$count]['type']; ?>"><?PHP the_sub_field('recipe_type'); ?></p></div>
                             <p class="<?PHP echo $styles[$count]['name']; ?>" ><?PHP the_sub_field('recipe_name'); ?></p>
                             <hr class="<?PHP echo $styles[$count]['hr']; ?>"/>
-                            <p class="<?PHP echo $styles[$count]['description']; ?>">Description: <?PHP the_sub_field('description'); ?><br/><br/>
+                            <p class="<?PHP echo $styles[$count]['description']; ?>"><?PHP the_sub_field('description'); ?><br/><br/>
                                     Difficulty: 
                                 <?PHP the_sub_field('dificulty'); ?>
                                     </p>

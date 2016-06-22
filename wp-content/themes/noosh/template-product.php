@@ -3,16 +3,17 @@
     
     <div class="row first-level-row" >        
         <div class="col-xs-12 h-xs-12  col-sm-6 h-sm-6">
-            <div class="first-level-solid-column-left">            
-                <div class="h-content  noosh-slide-wrapper red-background-color">         
-                  <?PHP $flag = 0; while (have_rows('headlines') ) : the_row(); $image = get_sub_field('background_image'); ?>         
-                    <div class="v-wrap noosh-slide" style="background-image:url(<?php echo $image['url']; ?>); background-size:cover; <?PHP if($flag==0) $flag=1; else echo 'display:none;'; ?>">
-                        <div class="v-box">
-                            <p class="fancy-font jumbo-fancy-size normal-side-padding <?PHP the_sub_field('headline_font_color'); ?>"><?PHP the_sub_field('headline_text'); ?></p>
-                        </div>
-                    </div>
-                  <?PHP endwhile; ?>
-                </div>
+            <div class="first-level-solid-column-left">                    
+                  <?PHP $flag = 0; while (have_rows('headlines') ) : the_row(); $image = get_sub_field('background_image'); ?>    
+                    <?PHP if ($flag == 0 ): ?>
+                    <div class="h-content  noosh-slide-wrapper red-background-color" style="background-image:url(<?php echo $image['url']; ?>); background-size:cover;"> 
+                    <?PHP endif; ?>
+                        <div class="v-wrap noosh-slide" style="<?PHP if($flag==0) $flag = 1; else echo 'display:none;'; ?>">
+                            <div class="v-box">
+                                <p class="fancy-font jumbo-fancy-size normal-side-padding <?PHP the_sub_field('headline_font_color'); ?>"><?PHP the_sub_field('headline_text'); ?></p>
+                            </div>
+                        </div>             
+                  <?PHP endwhile; ?>  </div>              
             </div>
         </div>
         
